@@ -34,7 +34,6 @@
 		 "terminal",
 		 "copy-code-button",
 		 "include-csv",
-		 "versions-select",
 		 "rss" 
 	],
 	"pluginsConfig": {
@@ -115,18 +114,6 @@
             "copyButtons": true,
             "fade": false,
             "style": "flat"
-        },
-        "versions": {
-            "options": [
-                {
-                    "value": "http://gitbook.miqi1992.com",
-                    "text": "v3.2.2"
-                },
-                {
-                    "value": "http://gitbook.zhangjikai.com/v2/",
-                    "text": "v2.6.4"
-                }
-            ]
         },
         "rss": {
             "title": "Python学习指南",
