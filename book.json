@@ -1,0 +1,144 @@
+{
+	"title":"Python学习指南",
+	"author":"小破孩52",
+	"description":"本人学习Python的一些经验总结",
+	"language":"zh-hans",
+	"output.name":"site",
+	"links":{
+		"sidebar":{
+			"Home":"http://www.cnblogs.com/miqi1992/"
+		}
+	},
+	"plugins":[
+		"-lunr", "-search", "search-plus",
+		"prism","-highlight","prism-themes",
+		"github",
+		"github-buttons",
+		"emphasize",
+		 "katex",
+		 "splitter",
+		 "mermaid-gb3",
+		 "puml",
+		 "graph",
+		 "chart",
+		 "-sharing", "sharing-plus",
+		 "tbfed-pagefooter",
+		 "expandable-chapters-small",
+		 "sectionx",
+		 "3-ba",
+		 "donate",
+		 "simple-page-toc",
+		 "anchor-navigation-ex",
+		 "edit-link",
+		 "sitemap-general",
+		 "terminal",
+		 "copy-code-button",
+		 "include-csv",
+		 "versions-select",
+		 "rss" 
+	],
+	"pluginsConfig": {
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-atom-dark.css"
+            ]
+        },
+        "github": {
+        	"url": "https://github.com/miqi1992"
+    	},
+    	"github-buttons": {
+    		"user":"miqi1992",
+            "repo": "python",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        "chart": {
+            "type": "highcharts"
+        },
+        "sharing": {
+	       "douban": false,
+	       "facebook": false,
+	       "google": false,
+	       "hatenaBookmark": false,
+	       "instapaper": false,
+	       "line": false,
+	       "linkedin": false,
+	       "messenger": false,
+	       "pocket": false,
+	       "qq": false,
+	       "qzone": false,
+	       "stumbleupon": false,
+	       "twitter": false,
+	       "viber": false,
+	       "vk": false,
+	       "weibo": false,
+	       "whatsapp": false,
+	       "all": [
+	           "douban", "google", "qq",
+	           "qzone", "weibo", "linkedin",
+	           "facebook"
+	       ]
+	   },
+	   "tbfed-pagefooter": {
+	        "copyright":"Copyright &copy xiaopohai52.com 2017",
+	        "modify_label": "该文件修订时间：",
+	        "modify_format": "YYYY-MM-DD HH:mm:ss"
+    	},
+    	"sectionx": {
+          "tag": "h3"
+        },
+        "3-ba": {
+            "token": "python"
+        },
+        "donate": {
+	        "wechat": "http://otfldlj83.bkt.clouddn.com/image/%E5%BE%AE%E4%BF%A1.png",
+	        "alipay": "http://otfldlj83.bkt.clouddn.com/image/%E6%94%AF%E4%BB%98%E5%AE%9D.jpg",
+	        "title": "",
+	        "button": "赏",
+	        "alipayText": "支付宝打赏",
+	        "wechatText": "微信打赏"
+    	},
+    	"simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "edit-link": {
+	        "base": "https://github.com/miqi1992/python/edit/master",
+	        "label": "编辑页面"
+    	},
+    	"sitemap-general": {
+            "prefix": "http://gitbook.miqi1992.com"
+        },
+        "terminal": {
+            "copyButtons": true,
+            "fade": false,
+            "style": "flat"
+        },
+        "versions": {
+            "options": [
+                {
+                    "value": "http://gitbook.miqi1992.com",
+                    "text": "v3.2.2"
+                },
+                {
+                    "value": "http://gitbook.zhangjikai.com/v2/",
+                    "text": "v2.6.4"
+                }
+            ]
+        },
+        "rss": {
+            "title": "Python学习指南",
+            "description": "记录Python学习经验",
+            "author": "小破孩52",
+            "feed_url": "http://gitbook.miqi1992.com/rss",
+            "site_url": "http://gitbook.miqi1992.com/",
+            "managingEditor": "me@miqi1992.com",
+            "webMaster": "me@miqi1992.com",
+            "categories": [
+                "gitbook"
+            ]
+        }
+    }
+}
